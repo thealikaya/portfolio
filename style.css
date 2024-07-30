@@ -288,6 +288,11 @@ h3.my-profession{
     border-radius: 5px;
     height: 400px;   
 }
+.home h3,
+.home p{
+    color: var(--text-black-900);
+}
+
 /* About */
 .about .about-content {
     flex: 0 0 100%;
@@ -376,8 +381,8 @@ h3.my-profession{
 }
 .about .about-content .education,
 .about .about-content .experience {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 .about .about-content h3.title {
@@ -445,6 +450,15 @@ h3.my-profession{
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
+    color: var(--text-black-700);
+}
+.about h3,
+.home p{
+    color: var(--text-black-900);
+}
+
+.about .about-content .experience ul li {
+    list-style-type: disc;
     color: var(--text-black-700);
 }
 /* Services */
