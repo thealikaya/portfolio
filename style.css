@@ -552,7 +552,7 @@ h3.my-profession{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1rem;
+    margin-right: 2rem;
 }
 /* Contact */
 .contact-title{
